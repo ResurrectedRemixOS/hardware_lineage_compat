@@ -114,6 +114,7 @@ cc_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudioroute-v34",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
@@ -150,6 +151,7 @@ cc_library {
 
 cc_prebuilt_library_shared {
     name: "libbase-v33",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
@@ -250,6 +252,7 @@ cc_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcrypto-v33",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
@@ -276,6 +279,7 @@ cc_library {
 
 cc_prebuilt_library_shared {
     name: "libcutils-v29",
+    ignore_max_page_size: true,
     system_ext_specific: true,
     vendor_available: true,
     strip: {
@@ -345,6 +349,7 @@ cc_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhidlbase-v32",
+    ignore_max_page_size: true,
     system_ext_specific: true,
     recovery_available: true,
     vendor_available: true,
@@ -500,6 +505,7 @@ cc_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libui-v32",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
@@ -539,6 +545,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libui-v34",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
@@ -581,6 +588,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libutils-v32",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
@@ -606,6 +614,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libutils-v33",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
@@ -699,6 +708,7 @@ cc_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtinyxml2-v34",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
@@ -723,6 +733,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtinyxml2-v36",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
@@ -799,6 +810,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libprotobuf-cpp-full-21.7",
+    ignore_max_page_size: true,
     system_ext_specific: true,
     vendor_available: true,
     strip: {
@@ -822,6 +834,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libprotobuf-cpp-lite-21.7",
+    ignore_max_page_size: true,
     system_ext_specific: true,
     vendor_available: true,
     strip: {
@@ -916,6 +929,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libprotobuf-cpp-full-v29",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
@@ -938,6 +952,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libprotobuf-cpp-lite-v29",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
@@ -959,6 +974,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libprotobuf-cpp-full-vendorcompat",
     stem: "libprotobuf-cpp-full",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
@@ -982,6 +998,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libprotobuf-cpp-lite-vendorcompat",
     stem: "libprotobuf-cpp-lite",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
@@ -1002,6 +1019,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstagefright_foundation-v33",
+    ignore_max_page_size: true,
     system_ext_specific: true,
     vendor_available: true,
     strip: {
